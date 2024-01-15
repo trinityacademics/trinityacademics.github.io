@@ -14,3 +14,23 @@ iframe {
 p {
     font-size: 18px;
 }
+div.btns {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+button {
+    font-size: 18px;
+    margin: 10px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    transition: box-shadow 0.25s ease 0s;
+}
+button:hover {
+    box-shadow: 2.5px 5px 10px 2.5px #a3a3a3;
+    transition: box-shadow 0.25s ease 0s;
+}
