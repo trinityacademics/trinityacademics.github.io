@@ -11,17 +11,29 @@
         <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
     </head>
     <body>
-        <img src="img/bannerNarrow.png" alt="Welcome to Trinity Academics" class="banner" style="width:100vw">
+            <nav class="topnav" id="navbar">
+                <a href="index.html">
+                    <img src="img/title.png" alt="Home" style="width: 280px;margin-top:10px">
+                </a>
+                <a href="math/math.html">Mathematics</a>
+                <a href="sci/sci.html">Science</a>
+                <a href="ss/ss.html">Social Studies</a>
+                <a href="ela/ela.html">English</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
         <div class="content">
+<!--            <h3 class="">Hello</h3>-->
             <h2><i style="letter-spacing:5px">Education for Our Future</i></h2>
             <p>Trinity Academics is a non-profit organization aiming to provide free education to Texas' future generations. We are a group of students who are passionate about teaching and learning. We hope to provide free and accessible education to all students.</p>
             <p>We feature a variety of resources including videos, games, quizzes, and more. Our target audience is students in 6th, 7th, and 8th grade. We hope to expand our resources to include more grades in the future.</p>
             <p><b>Start learning by selecting a topic below!</b></p>
             <div class="btns">
-                <button style="background:#66bdff">Mathematics</button>
-                <button style="background:#75ff66">Science</button>
-                <button style="background:#a866ff">Social Studies</button>
-                <button style="background:#ff6666">English</button>
+                <a href="math/math.html"><button style="background:#66bdff">Mathematics</button></a>
+                <a href="sci/sci.html"><button style="background:#75ff66">Science</button></a>
+                <a href="ss/ss.html"><button style="background:#a866ff">Social Studies</button></a>
+                <a href="ela/ela.html"><button style="background:#ff6666">English</button></a>
             </div>
             <br>
         </div>

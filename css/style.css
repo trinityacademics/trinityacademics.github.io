@@ -6,6 +6,7 @@ body {
 .content {
     padding: 10px 30px;
     text-align: center;
+    height: 100vh;
 }
 iframe {
     border: none;
@@ -28,9 +29,73 @@ button {
     padding: 10px;
     border: none;
     box-shadow: none;
-    transition: box-shadow 0.25s ease 0s;
+    transition: box-shadow 0.5s ease 0s;
 }
 button:hover {
     box-shadow: 2.5px 5px 10px 2.5px #a3a3a3;
-    transition: box-shadow 0.25s ease 0s;
+    transition: box-shadow 0.5s ease 0s;
 }
+img.banner {
+    width: 100vw;
+}
+img.logo {
+    height: 75px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    position: sticky;
+    top: 0;
+    margin: 0px;
+    padding; 0px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #D4FCFF, #FFFAAF);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav a.icon {
+    color: black;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav.responsive a:not(:last-child) {
+    display: block;
+}
+.topnav a:not(:last-child) {
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: #FFFAAF;
+    transition: background-color 0.5s ease 0s;
+}
+.topnav a:first-child {
+    display: flex;
+    justify-content: center;
+    align-items; center;
+    float: none;
+    padding: 0px;
+    margin: auto;
+    background: none;
+}
+.topnav a:first-child:hover {
+    background: none;
+}
+nav a:hover:not(:last-child) {
+    background-color: #D4FCFF;
+    transition: background-color 0.5s ease 0s;
+}
+nav a.active {
+    background-color: #75F6FF;
+}
+/*h3.*/
