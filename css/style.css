@@ -18,8 +18,10 @@ p {
 div.btns {
     display: flex;
     flex-direction: column;
-    width: 200px;
     margin: auto;
+}
+div.btns button {
+    width: 200px;
 }
 button {
     font-size: 18px;
