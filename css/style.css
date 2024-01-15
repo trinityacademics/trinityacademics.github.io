@@ -82,7 +82,7 @@ nav a.icon {
 .topnav a:first-child {
     display: flex;
     justify-content: center;
-    align-items; center;
+    align-items: center;
     float: none;
     padding: 0px;
     margin: auto;
