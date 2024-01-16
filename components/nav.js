@@ -64,12 +64,12 @@ class Nav extends HTMLElement {
             </style>
             <nav class="topnav" id="navbar">
                 <a href="../index.html">
-                    <img src=${inRoot === true ? "img/title.png" : "../img/title.png"} alt="Home" style="width:280px;margin-top:10px">
+                    <img src="../img/title.png" alt="Home" style="width:280px;margin-top:10px" id="banner">
                 </a>
-                <a href=${inRoot === true ? "math/math.html" : "../math/math.html"}>Mathematics</a>
-                <a href=${inRoot === true ? "sci/sci.html" : "../sci/sci.html"}>Science</a>
-                <a href=${inRoot === true ? "ss/ss.html" : "../ss/ss.html"}>Social Studies</a>
-                <a href=${inRoot === true ? "ela/ela.html" : "../ela/ela.html"}>English</a>
+                <a href="../math/math.html">Mathematics</a>
+                <a href="../sci/sci.html">Science</a>
+                <a href="../ss/ss.html">Social Studies</a>
+                <a href="../ela/ela.html">English</a>
                 <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -88,10 +88,4 @@ function responsiveNav() {
         nav.className = "topnav";
         console.log(nav.className)
     }
-}
-function rootPath() {
-    inRoot = true;
-}
-function relPath() {
-    inRoot = false;
 }
