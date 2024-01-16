@@ -22,8 +22,10 @@ class Nav extends HTMLElement {
                     color: black;
                     float: right;
                     position: absolute;
-                    right: 40px;
-                    top: 70px;
+                    right: 0px;
+                    top: 0px;
+                    height: 160px;
+                    width: 80px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
