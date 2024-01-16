@@ -69,7 +69,7 @@ class Nav extends HTMLElement {
                 <a href="../math/math.html">Mathematics</a>
                 <a href="../sci/sci.html">Science</a>
                 <a href="../ss/ss.html">Social Studies</a>
-                <a href="../ela/ela.html">English</a>
+                <a href="../ela/ela.html" style="box-shadow:0px 5px 10px -3px #a3a3a3">English</a>
                 <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
                     <i class="fa fa-bars"></i>
                 </a>
