@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .content {
     padding: 10px 30px;
@@ -14,6 +14,18 @@ iframe {
 p {
     font-size: 18px;
 }
+h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+h3 {
+    font-size: 24px;
+    letter-spacing: 5px;
+}
 div.btns {
     display: flex;
     flex-direction: column;
@@ -25,7 +37,7 @@ div.btns button {
 button {
     font-size: 18px;
     margin: 10px;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 50px;
     padding: 10px;
     border: none;
