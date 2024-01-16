@@ -6,7 +6,6 @@ body {
 .content {
     padding: 10px 30px;
     text-align: center;
-    height: 100vh;
 }
 iframe {
     border: none;
