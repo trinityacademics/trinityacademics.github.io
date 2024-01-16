@@ -12,7 +12,7 @@ class Nav extends HTMLElement {
                     top: 0;
                     margin: 0px;
                     padding; 0px;
-                    height: 20vh;
+                    max-height: 160px;
                     background-image: linear-gradient(to bottom, #D4FCFF, #FFFAAF);
                     background-size: contain;
                     background-repeat: no-repeat;
@@ -22,10 +22,8 @@ class Nav extends HTMLElement {
                     color: black;
                     float: right;
                     position: absolute;
-                    right: 0;
-                    top: 0;
-                    width: 17.5vh;
-                    height: 17.5vh;
+                    right: 40px;
+                    top: 40px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -64,7 +62,7 @@ class Nav extends HTMLElement {
             </style>
             <nav class="topnav" id="navbar">
                 <a href="../home/home.html">
-                    <img src="../img/title.png" alt="Home" style="height:15vh;margin-top:2.5vh" id="banner">
+                    <img src="../img/title.png" alt="Home" style="max-height:125px;width:auto;max-width:100vw;padding:10px" id="banner">
                 </a>
                 <a href="../math/math.html">Mathematics</a>
                 <a href="../sci/sci.html">Science</a>
