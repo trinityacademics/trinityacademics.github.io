@@ -23,7 +23,7 @@ class Nav extends HTMLElement {
                     float: right;
                     position: absolute;
                     right: 40px;
-                    top: 40px;
+                    top: 70px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
