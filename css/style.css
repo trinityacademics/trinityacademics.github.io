@@ -43,6 +43,7 @@ button {
     border: none;
     box-shadow: none;
     transition: box-shadow 0.5s ease 0s;
+    color: black;
 }
 button:hover {
     box-shadow: 2.5px 5px 10px 2.5px #a3a3a3;
