@@ -62,13 +62,13 @@ class Nav extends HTMLElement {
                 }
             </style>
             <nav class="topnav" id="navbar">
-                <a href="/index.html">
-                    <img src="/img/title.png" alt="Home" style="width:280px;margin-top:10px">
+                <a href="index.html">
+                    <img src="img/title.png" alt="Home" style="width:280px;margin-top:10px">
                 </a>
-                <a href="/math/math.html">Mathematics</a>
-                <a href="/sci/sci.html">Science</a>
-                <a href="/ss/ss.html">Social Studies</a>
-                <a href="/ela/ela.html">English</a>
+                <a href="math/math.html">Mathematics</a>
+                <a href="sci/sci.html">Science</a>
+                <a href="ss/ss.html">Social Studies</a>
+                <a href="ela/ela.html">English</a>
                 <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
                     <i class="fa fa-bars"></i>
                 </a>
