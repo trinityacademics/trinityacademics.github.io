@@ -1,0 +1,60 @@
+nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    background-image: linear-gradient(to bottom, #D4FCFF, #FFFAAF);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav a.icon {
+    color: black;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav.responsive a:not(:last-child) {
+    display: block;
+}
+.topNav a:not(:last-child) {
+    display: none;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #FFFAAF;
+    transition: background-color 0.5s ease 0s;
+}
+.topNav a:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    padding: 0;
+    margin: auto;
+    background: none;
+}
+.topNav a:first-child:hover {
+    background: none;
+}
+nav a:hover:not(:last-child) {
+    background-color: #D4FCFF;
+    transition: background-color 0.5s ease 0s;
+}
+nav a.active {
+    background-color: #75F6FF;
+}
+.App-logo {
+    max-height: 125px;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
