@@ -1,10 +1,11 @@
 import NavBar from "@/components/navbar";
+import Link from "next/link";
 
 export default function Home() {
     return (
         <div className={"App"}>
             <div className="content">
-                <NavBar />
+                <NavBar/>
                 <div className={"content-fr-this-time"}>
                     <h3>Education for Our Future</h3>
                     <p>Trinity Academics is a non-profit organization aiming to provide free education to Texas' future
@@ -18,7 +19,9 @@ export default function Home() {
                         future.</p>
                     <p><b>Start learning by selecting a topic below!</b></p>
                     <div className="buttons">
-                        <button className={"math"}><b>Mathematics</b></button>
+                        <Link href={"/math"}>
+                            <button className={"math"}><b>Mathematics</b></button>
+                        </Link>
                         <button className={"science"}><b>Science</b></button>
                         <button className={"social-studies"}><b>Social Studies</b></button>
                         <button className={"english"}><b>English</b></button>
