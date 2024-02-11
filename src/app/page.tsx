@@ -1,24 +1,10 @@
-import logo from '@/assets/logo.png';
-import Image from "next/image";
+import NavBar from "@/components/navbar";
 
 export default function Home() {
     return (
         <div className={"App"}>
             <div className="content">
-                <nav className="topnav" id="navbar">
-                    <a href="/">
-                        <Image src={logo} alt={"Home"} className={"App-logo"}/>
-                    </a>
-                    {/*
-                <a href="/math/math.html">Mathematics</a>
-                <a href="/sci/sci.html">Science</a>
-                <a href="/ss/ss.html">Social Studies</a>
-                <a href="/ela/ela.html">English</a>
-                <a href="javascript:void(0);" className="icon" onClick={responsiveNav()}>
-                    <i className="fa fa-bars"></i>
-                </a>
-                */}
-                </nav>
+                <NavBar />
                 <div className={"content-fr-this-time"}>
                     <h3>Education for Our Future</h3>
                     <p>Trinity Academics is a non-profit organization aiming to provide free education to Texas' future
@@ -32,7 +18,10 @@ export default function Home() {
                         future.</p>
                     <p><b>Start learning by selecting a topic below!</b></p>
                     <div className="buttons">
-                        <button className={"button"}>button</button>
+                        <button className={"math"}><b>Mathematics</b></button>
+                        <button className={"science"}><b>Science</b></button>
+                        <button className={"social-studies"}><b>Social Studies</b></button>
+                        <button className={"english"}><b>English</b></button>
                     </div>
                     <br/>
                 </div>
