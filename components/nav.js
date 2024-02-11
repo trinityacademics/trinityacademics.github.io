@@ -63,7 +63,7 @@ class Nav extends HTMLElement {
                 }
             </style>
             <nav class="topnav" id="navbar">
-                <a href="/home/home.html">
+                <a href="/index.html">
                     <img src="/img/title.png" alt="Home" style="max-height:125px;width:auto;max-width:100vw;padding:10px" id="banner">
                 </a>
                 <a href="/math/math.html">Mathematics</a>
