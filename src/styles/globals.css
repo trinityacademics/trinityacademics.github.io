@@ -78,3 +78,6 @@ a {
     padding: 10px 25px;
     margin-top: 24px;
 }
+.text-left {
+    text-align: left;
+}

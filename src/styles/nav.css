@@ -9,18 +9,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
 }
-nav a.icon {
-    color: black;
-    float: right;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .topNav.responsive a:not(:last-child) {
     display: block;
 }
@@ -49,9 +38,7 @@ nav a:hover:not(:last-child) {
     background-color: #D4FCFF;
     transition: background-color 0.5s ease 0s;
 }
-nav a.active {
-    background-color: #75F6FF;
-}
+
 .App-logo {
     max-height: 125px;
     width: auto;

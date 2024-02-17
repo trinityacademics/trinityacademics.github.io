@@ -5,8 +5,8 @@ import "@/styles/mathButtons.css";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Trinity Academics",
-    description: "Trinity Academics math page.",
+    title: "Trinity Academics | Math Grade 8",
+    description: "Trinity Academics Math Grade 8 page.",
 };
 
 export default function RootLayout({

@@ -1,4 +1,6 @@
+
 import NavBar from "@/components/navbar";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -9,9 +11,9 @@ export default function Home() {
                     <h1>Mathematics</h1>
                     <p><b>Choose a grade level</b></p>
                     <div className={"buttons"}>
-                        <button className={"sixth"}><b>6th Grade</b></button>
-                        <button className={"seventh"}><b>7th Grade</b></button>
-                        <button className={"eighth"}><b>8th Grade</b></button>
+                        <Link href={"/math/math6"}><button className={"sixth"}><b>6th Grade</b></button></Link>
+                        <Link href={"/math/math7"}><button className={"seventh"}><b>7th Grade</b></button></Link>
+                        <Link href={"/math/math8"}><button className={"eighth"}><b>8th Grade</b></button></Link>
                     </div>
                 </div>
             </div>

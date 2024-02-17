@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata: Metadata = {
     title: "Trinity Academics",
-    description: "Trinity Academics math page.",
+    description: "Trinity Academics Math Grade 7 page.",
 };
 
 export default function RootLayout({

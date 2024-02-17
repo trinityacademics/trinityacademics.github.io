@@ -1,12 +1,14 @@
 import Image from "next/image";
 import logo from "@/assets/logo.png";
+import React from "react";
+import Link from "next/link";
 
 export default function NavBar() {
     return (
         <nav className="topnav" id="navbar">
-            <a href="/">
+            <Link href="/">
                 <Image src={logo} alt={"Home"} className={"App-logo"}/>
-            </a>
+            </Link>
             {/*
                 <a href="/math/math.html">Mathematics</a>
                 <a href="/sci/sci.html">Science</a>
