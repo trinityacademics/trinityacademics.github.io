@@ -7,7 +7,8 @@ export default function Home() {
             <div className="content">
                 <NavBar/>
                 <div className={"content-fr-this-time"}>
-                    <h1>honorable mention</h1>
+                    <h1>8th Grade<br/>Mathematics</h1>
+                    honorable mention
                 </div>
             </div>
         </div>
