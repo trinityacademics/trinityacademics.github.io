@@ -4,9 +4,9 @@ Non-profit organization aiming to provide accessible education to Texas' future 
 
 ## Table of Contents
 
-- [About this App] (#about-this-app)
-- [Running] (#running)
-- [Additional Information] (#additional-information)
+- [About this App](#about-this-app)
+- [Running](#running)
+- [Additional Information](#additional-information)
 
 ## About this App
 
