@@ -1,11 +1,12 @@
 import type {Metadata} from "next";
 import "@/styles/globals.css";
 import "@/styles/nav.css";
+import "@/styles/sciButtons.css";
 import React from "react";
 
 export const metadata: Metadata = {
     title: "Trinity Academics",
-    description: "Trinity Academics Math Grade 7 page.",
+    description: "Trinity Academics science page.",
 };
 
 export default function RootLayout({

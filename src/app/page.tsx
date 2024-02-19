@@ -22,7 +22,9 @@ export default function Home() {
                         <Link href={"/math"}>
                             <button className={"math"}><b>Mathematics</b></button>
                         </Link>
-                        <button className={"science"}><b>Science</b></button>
+                        <Link href={"/science"}>
+                            <button className={"science"}><b>Science</b></button>
+                        </Link>
                         <button className={"social-studies"}><b>Social Studies</b></button>
                         <button className={"english"}><b>English</b></button>
                     </div>

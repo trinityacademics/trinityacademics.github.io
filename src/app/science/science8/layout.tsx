@@ -4,8 +4,8 @@ import "@/styles/nav.css";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Trinity Academics",
-    description: "Trinity Academics Math Grade 7 page.",
+    title: "Trinity Academics | Science Grade 8",
+    description: "Trinity Academics Science Grade 8 page.",
 };
 
 export default function RootLayout({

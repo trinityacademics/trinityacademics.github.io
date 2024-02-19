@@ -1,7 +1,6 @@
 import type {Metadata} from "next";
 import "@/styles/globals.css";
 import "@/styles/nav.css";
-import "@/styles/mathButtons.css";
 import React from "react";
 
 export const metadata: Metadata = {
