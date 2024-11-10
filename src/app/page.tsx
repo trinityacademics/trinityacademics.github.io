@@ -25,8 +25,12 @@ export default function Home() {
                         <Link href={"/science"}>
                             <button className={"science"}><b>Science</b></button>
                         </Link>
-                        <button className={"social-studies"}><b>Social Studies</b></button>
-                        <button className={"english"}><b>English</b></button>
+                        <Link href={"/ss"}>
+                            <button className={"social-studies"}><b>Social Studies</b></button>
+                        </Link>
+                        <Link href={"/english"}>
+                            <button className={"english"}><b>English</b></button>
+                        </Link>
                     </div>
                     <br/>
                 </div>
